@@ -1,0 +1,247 @@
+body
+	margin: 0
+	font-family: 'PT Sans', sans-serif
+.container-fluid
+	padding: 0
+header
+	background: url('../img/bg.jpg') no-repeat center center
+	background-size: cover
+	height: 400px
+	padding-top: 76px
+	text-align: center
+	h1
+		font-size: 36px
+		text-transform: uppercase
+		color: #fff
+		text-shadow: 0 1px 2px rgba(0, 1, 0, 0.35)
+		font-weight: bold
+		line-height: 1.2
+		text-align: center
+		margin: 0
+		padding-bottom: 13px
+
+.our-journeys
+	padding-top: 80px
+	padding-bottom: 85px
+	h2
+		margin: 0
+		font-size: 30px
+		color: #1a1a1a
+		font-weight: bold
+		text-transform: uppercase
+		line-height: 1.2
+		text-align: center
+		padding-bottom: 68px
+		&:after
+			content: ''
+			display: block
+			width: 150px
+			height: 3px
+			background-color: #1799b0
+			margin: 0 auto
+			transform: translateY(15px)
+	&_photo
+		margin: 0.5px
+		position: relative
+		img
+			width: 100%
+		.photos
+			padding: 0
+			margin: 0.5px
+		.dark-section
+			position: absolute
+			bottom: 0
+			padding: 8px
+			background: url("../img/info-bg.png") no-repeat
+			background-size: cover
+			width: 100%
+			h5
+				color: #ffffff
+				font-size: 18px
+				font-weight: 400
+				margin: 0
+			p
+				color: #ffffff
+				font-size: 14px
+				font-weight: 400
+				margin: 0
+.about-us
+	padding-bottom: 98px
+	h2
+		color: #1a1a1a
+		font-size: 30px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		margin: 0
+		padding-bottom: 58px
+		&:after
+			content: ''
+			display: block
+			width: 150px
+			height: 3px
+			background-color: #1799b0
+			margin: 0 auto
+			transform: translateY(12px)
+	&_items
+		.row
+			margin: 0
+		&-block
+			text-align: center
+			h5
+				color: #000000
+				font-size: 16px
+				font-weight: 700
+				margin: 10px 0
+			p
+				width: 184px
+				color: #1a1a1a
+				font-size: 16px
+				font-style: italic
+				margin: 0 auto
+.blog
+	text-align: center
+	h2
+		color: #1a1a1a
+		font-size: 30px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		padding-bottom: 46px
+		&:after
+			content: ''
+			display: block
+			width: 150px
+			height: 3px
+			background-color: #1799b0
+			margin: 0 auto
+			transform: translateY(13px)
+	&_items
+		text-align: center
+		&-block
+			h4
+				color: #1a1a1a
+				font-size: 24px
+				font-style: italic
+				margin: 14px 0
+			p
+				color: #1a1a1a
+				font-size: 18px
+				font-style: italic
+				text-align: left
+				margin: 0
+				display: block
+				height: auto!important
+			.more
+				display: block
+				color: #167fab
+				font-size: 18px
+				font-style: italic
+				text-decoration: underline
+				text-align: center
+				padding-top: 16px
+				margin-bottom: 50px
+				&:hover
+					text-decoration: none
+	button.show-more
+		background-color: #a8cc63
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		padding: 13px 44px 10px 51px
+		margin-bottom: 120px
+		border: none
+		cursor: pointer
+		&:hover, &:focus
+			background-color: #9dc254
+		&:active
+			background-color: #92b64b
+.join-us
+	text-align: center
+	h2
+		color: #1a1a1a
+		font-size: 30px
+		font-weight: 700
+		text-transform: uppercase
+		text-align: center
+		padding-bottom: 40px
+		&:after
+			content: ''
+			display: block
+			width: 150px
+			height: 3px
+			background-color: #1799b0
+			margin: 0 auto
+			transform: translateY(13px)
+	form
+		text-align: -webkit-center
+		input
+			display: block
+			width: 350px
+			height: 40px
+			border: 1px solid #e7e7e7
+			background-color: #ffffff
+			margin: 4.5px
+			font-size: 16px
+			font-style: italic
+			padding: 14px 13px 10px
+			&::placeholder  /* Chrome, Firefox, Opera, Safari 10.1+ */
+				color: #d0d0d0
+				opacity: 1 /* Firefox */
+		textarea
+			width: 350px
+			height: 130px
+			border: 1px solid #e7e7e7
+			background-color: #ffffff
+			margin: 4.5px
+			font-size: 16px
+			font-style: italic
+			padding: 7px 13px 10px
+			&::placeholder  /* Chrome, Firefox, Opera, Safari 10.1+ */
+				color: #d0d0d0
+				opacity: 1 /* Firefox */
+		.main-form-btn
+			background-color: #1799b0
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			padding: 12px 56px 10px
+			border: none
+			margin-bottom: 159px
+			cursor: pointer
+			&:hover, &:focus
+				background-color: #118da3
+			&:active
+				background-color: #0b8095
+.footer
+	height: auto
+	background-color: #242628
+	&_menu
+		padding-top: 10px
+		&-text
+			list-style: none
+			padding: 0
+			display: flex
+			li
+				p
+					color: #ffffff
+					font-size: 14px
+					font-weight: 400
+					margin: 0
+				.social-icons
+					list-style: none
+					display: flex
+					padding: 0 16px
+					li
+						margin-right: 5px
+						cursor: pointer
+						img:hover
+							opacity: 0.7
+
+
+	
+
+
+
+ 
+  		
